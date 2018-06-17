@@ -1,6 +1,14 @@
 package com.example.alien.dagger2sample.DI;
 
+import javax.inject.Inject;
+
 public class Boltons implements House {
+
+    @Inject
+    public Boltons() {
+
+    }
+
     @Override
     public void prepareForWar() {
         //что-то происходит
